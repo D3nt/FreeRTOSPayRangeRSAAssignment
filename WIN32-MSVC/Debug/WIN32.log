@@ -1,0 +1,50 @@
+﻿Build started 10/27/2015 7:07:56 PM.
+     1>Project "C:\Users\Aleksey-Laptop\Downloads\FreeRTOSV8.2.3\FreeRTOS\Demo\WIN32-MSVC\WIN32.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\Source\include /I"..\..\Source\portable\MSVC-MingW" /I..\Common\Include /I"..\..\..\FreeRTOS-Plus\Source\FreeRTOS-Plus-Trace\Include" /I.\Trace_Recorder_Configuration /I. /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _WIN32_WINNT=0x0500 /D WINVER=0x400 /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\Debug/" /Fd".\Debug/vc140.pdb" /Gd /TC /analyze- /errorReport:prompt /wd4210 payrange_solution1.c
+         payrange_solution1.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/RTOSDemo.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:".\Debug/WIN32.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\RTOSDemo.lib" /MACHINE:X86 /SAFESEH .\Debug/trcBase.obj
+         .\Debug/trcHardwarePort.obj
+         .\Debug/trcKernel.obj
+         .\Debug/trcKernelPort.obj
+         .\Debug/trcUser.obj
+         .\Debug/croutine.obj
+         .\Debug/event_groups.obj
+         .\Debug/heap_5.obj
+         .\Debug/timers.obj
+         .\Debug/BlockQ.obj
+         .\Debug/blocktim.obj
+         .\Debug/countsem.obj
+         .\Debug/death.obj
+         .\Debug/dynamic.obj
+         .\Debug/EventGroupsDemo.obj
+         .\Debug/flop.obj
+         .\Debug/GenQTest.obj
+         .\Debug/integer.obj
+         .\Debug/IntSemTest.obj
+         .\Debug/PollQ.obj
+         .\Debug/QPeek.obj
+         .\Debug/QueueOverwrite.obj
+         .\Debug/QueueSet.obj
+         .\Debug/QueueSetPolling.obj
+         .\Debug/recmutex.obj
+         .\Debug/semtest.obj
+         .\Debug/TaskNotify.obj
+         .\Debug/timerdemo.obj
+         .\Debug/main.obj
+         .\Debug/list.obj
+         .\Debug/port.obj
+         .\Debug/queue.obj
+         .\Debug/tasks.obj
+         .\Debug/main_blinky.obj
+         .\Debug/main_full.obj
+         .\Debug/payrange_solution1.obj
+         ".\Debug/Run-time-stats-utils.obj"
+     1>trcBase.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         WIN32.vcxproj -> C:\Users\Aleksey-Laptop\Downloads\FreeRTOSV8.2.3\FreeRTOS\Demo\WIN32-MSVC\.\Debug\RTOSDemo.exe
+     1>Done Building Project "C:\Users\Aleksey-Laptop\Downloads\FreeRTOSV8.2.3\FreeRTOS\Demo\WIN32-MSVC\WIN32.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.49
